@@ -1,0 +1,145 @@
+body {
+	background-color:  white;
+	padding:  0px;
+	margin:  0px;
+	font-size: 16px;
+	font-family: 'Sofia', cursive;
+}
+
+.navbar{
+	background-color: skyblue;
+	font-family: 'Sofia', cursive;
+}
+.nav-link:hover{
+	box-shadow: 5px 5px 15px black;
+	border-radius: 30%;
+	background-color: yellowgreen;
+	color: white;
+	transition: background-color 0.3s, padding 0.8s linear;
+}
+.carousel-inner{
+	align-items: center;
+	margin-top: 50px;
+	min-width: 450px;
+	margin-left: 22px;
+	padding-right: 0px;
+	margin-right: 0px;
+}
+.text {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-left: 165px;
+	font-family: 'Just Another Hand', cursive;
+	background: gray;
+	color:white;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+.comments {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding-left: 165px;
+	font-family: 'Just Another Hand', cursive;
+	background: gray;
+	color:white;
+}
+
+#Testimonials{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap; 
+	text-align: center;
+	margin: 30px;
+	padding-top: 30px;
+}
+.customer{
+	box-shadow: 15px 15px 15px black;
+	border-radius: 50px;
+	margin: 10px;
+	overflow: hidden;
+}
+.customer:hover{
+	box-shadow: 5px 5px 15px black;
+	background-color: skyblue;
+	transition: background-color 0.3s, padding 0.8s linear;
+}
+.input {
+	margin: 30px;
+	font-family: 'Sofia', cursive;
+}
+.jumbotron {
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 10px;
+	overflow: hidden; 
+}
+#game{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#shop {
+	align-items: center;
+}
+#shop .img{
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding-left: 55px;
+	padding-bottom: 20px;
+}
+#shop .card{
+	border:2px solid black;
+}
+#shop .card img{
+	border: 2px solid black;
+}
+.filler{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left:0px;
+	margin-bottom: 20px;
+}
+.card:hover{
+	box-shadow: 5px 5px 15px black;
+	background-color: skyblue;
+	color: black;
+	transition: background-color 0.3s, padding 0.8s linear;
+}
+#social ul{
+ 	display:flex;
+ 	list-style-type: none;
+ 	padding:30px;
+}
+footer {
+ 	background-color: skyblue;
+ 	display:flex;
+ 	align-items: center;
+ 	justify-content: space-around;
+ }
+ footer a{
+
+ 	padding: 30px;
+ 	color: black;
+ 	font-family: 'Sofia', cursive;
+}
+ #social ul li{
+ 	color: orange;
+
+}
+
+
+/* for responsive web design */
+ @media screen and (min-width: 700px){
+ 	nav ul {
+ 		text-align: right;
+ 	}
+ 	nav ul li {
+ 		display: inline-block;
+ 		border-bottom: 0px;
+ 		text-align: left;
+ 	}	
+ } 
+
